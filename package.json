@@ -1,0 +1,18 @@
+{
+  "name": "@lukapg/ratings",
+  "version": "1.0.0",
+  "description": "A very minimal package to generate a rating string",
+  "main": "rating.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rating",
+    "star",
+    "score",
+    "util"
+  ],
+  "author": "Luka Prebil Grintal",
+  "license": "ISC"
+}
