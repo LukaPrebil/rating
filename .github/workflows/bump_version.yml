@@ -4,6 +4,10 @@ on:
   push:
     branches: 
       - main
+    paths:
+      - '**.js'
+      - '**.json'
+      - 'README.md'
 
 jobs:
   unit-test:
@@ -20,11 +24,12 @@ jobs:
       - run: npm test
 
   bump-version:
+    needs: unit-test
     name: 'Bump Version on master'
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout source code'
-        uses: 'actions/checkout@v3'
+        uses: 'actions/checkout@v2'
         with:
           ref: ${{ github.ref }}
       - name: 'Automated Version Bump'
