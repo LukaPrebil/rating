@@ -4,6 +4,9 @@
   "description": "A very minimal package to generate a rating string",
   "main": "rating.js",
   "type": "module",
+  "files": [
+    "rating.js"
+  ],
   "scripts": {
     "test": "jest"
   },
@@ -14,6 +17,10 @@
     "util"
   ],
   "author": "Luka Prebil Grintal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LukaPrebil/rating"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.2",
