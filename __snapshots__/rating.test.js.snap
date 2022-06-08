@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating tests rating(0) should return correct string 1`] = `"☆☆☆☆☆"`;
+
+exports[`rating tests rating(1) should return correct string 1`] = `"★☆☆☆☆"`;
+
+exports[`rating tests rating(2) should return correct string 1`] = `"★★☆☆☆"`;
+
+exports[`rating tests rating(3) should return correct string 1`] = `"★★★☆☆"`;
+
+exports[`rating tests rating(4) should return correct string 1`] = `"★★★★☆"`;
+
+exports[`rating tests rating(5) should return correct string 1`] = `"★★★★★"`;
