@@ -5,7 +5,7 @@
   "main": "rating.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "rating",
@@ -14,5 +14,11 @@
     "util"
   ],
   "author": "Luka Prebil Grintal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1"
+  }
 }
