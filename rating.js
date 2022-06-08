@@ -1,1 +1,1 @@
-export const rating = (n) => "★★★★★☆☆☆☆☆".slice(5-n, 10-n);
+export const rating = n => "★★★★★☆☆☆☆☆".slice(5-n, 10-n)
