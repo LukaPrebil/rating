@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`rating tests Should allow configured both symbols 1`] = `"xxxxo"`;
+
+exports[`rating tests Should allow configured both symbols and max value 1`] = `"xxxxxooooo"`;
+
+exports[`rating tests Should allow configured fail symbol 1`] = `"★★★oo"`;
+
 exports[`rating tests Should allow configured max value 1`] = `"★★★★★☆☆☆☆☆"`;
+
+exports[`rating tests Should allow configured success symbol 1`] = `"xx☆☆☆"`;
 
 exports[`rating tests rating(0) should return correct string 1`] = `"☆☆☆☆☆"`;
 
