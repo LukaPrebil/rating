@@ -7,4 +7,8 @@ describe(`${rating.name} tests`, () => {
       expect(rating(n)).toMatchSnapshot();
     }
   );
+
+  it("Should allow configured max value", () => {
+    expect(rating(5, { max: 10 })).toMatchSnapshot();
+  })
 });
