@@ -1,5 +1,8 @@
-export const rating = (n, options = { max: 5 }) =>
-  ("★".repeat(options.max) + "☆".repeat(options.max)).slice(
-    options.max - n,
-    2 * options.max - n
+const defaultOptions = { max: 5, symbolSuccess: "★", symbolFail: "☆" };
+export const rating = (n, options = {}) => {
+  const { max, symbolSuccess, symbolFail } = { ...defaultOptions, ...options };
+  return (symbolSuccess.repeat(max) + symbolFail.repeat(max)).slice(
+    max - n,
+    2 * max - n
   );
+};
