@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`rating tests Should allow configured max value 1`] = `"★★★★★☆☆☆☆☆"`;
+
 exports[`rating tests rating(0) should return correct string 1`] = `"☆☆☆☆☆"`;
 
 exports[`rating tests rating(1) should return correct string 1`] = `"★☆☆☆☆"`;
